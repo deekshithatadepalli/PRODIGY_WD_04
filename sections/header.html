@@ -1,0 +1,59 @@
+<!-- Ur mani code -->
+<div class="container">
+    <nav>
+        <img src="images/logo1.jpg" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+        <p>Web Developer</p>
+        <h1>Hi, I'm <span>Deekshitha Tadepalli</span></h1>
+        <h2>A passionate and dedicated web developer <br> and programmer.</h2>
+    </div>
+</div>
+
+
+<!-- Image issue code -->
+
+<div class="header-main-container">
+    <nav>
+        <img src="images/logo1.jpg" class="logo">
+        <ul id="sidemenu">
+            <li> <a href="#header">Home</a> </li>
+            <li> <a href="#about">About</a> </li>
+            <li> <a href="#services">Services</a> </li>
+            <li> <a href="#portfolio">Portfolio</a> </li>
+            <li> <a href="#contact">Contact</a> </li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="introduction-container">
+        <div class="self-intro-content">
+            <p>Web Developer</p>
+            <h1>Hi, I'm <span>Deekshitha Tadepalli</span> </h1>
+            <h2>A passionate and dedicated web developer <br> and programmer.</h2>
+        </div>
+        <p>
+            <img [src]="images/background.png" alt="person-image">
+        </p>
+    </div>
+</div>
+<!-- like -->
+.introduction-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p img {
+        width: 100%;
+        height: 100%;
+        .....
+    }
+}
